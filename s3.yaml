@@ -10,4 +10,4 @@ Resources:
       Tags:
         - Key: Demo
           Value: autoremediation
-      BucketName: "autoremediation-s3-bucket"
+      BucketName: "pc-autoremediation-s3-bucket"
