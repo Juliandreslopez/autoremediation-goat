@@ -6,7 +6,7 @@ Resources:
     DeletionPolicy: Retain
     Properties:
       VersioningConfiguration:
-        status: 'Off'
+        Status: Disable
       Tags:
         - Key: Demo
           Value: autoremediation
