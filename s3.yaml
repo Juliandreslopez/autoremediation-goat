@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      VersioningConfiguration:
+        status: 'Off'
+      Tags:
+        - Key: Demo
+          Value: autoremediation
+      BucketName: "autoremediation-demo"
